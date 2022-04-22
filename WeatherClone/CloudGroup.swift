@@ -22,14 +22,14 @@ class CloudGroup {
 			cloudScale = 1...1
 			
 		case .thin:
-			numberOfClouds = 10
+			numberOfClouds = 7
 			opacity = 0.6
-			cloudScale = 0.2...0.4
+			cloudScale = 0.3...0.5
 			
 		case .light:
 			numberOfClouds = 10
 			opacity = 0.7
-			cloudScale = 0.4...0.6
+			cloudScale = 0.4...0.7
 			
 		case .regular:
 			numberOfClouds = 15

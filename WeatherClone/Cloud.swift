@@ -8,13 +8,13 @@
 import SwiftUI
 
 class Cloud {
-	enum Thickness {
+	enum Thickness: String, CaseIterable {
 		case none, thin, light, regular, thick, ultra
 	}
 	
 	var position: CGPoint
 	let imageNumber: Int
-	let speed = Double.random(in: 4...12)
+	let speed = Double.random(in: 3...13)
 	let scale: Double
 	
 	init(imageNumber: Int, scale: Double) {
