@@ -25,6 +25,7 @@ extension Array where Element == Gradient.Stop {
 			}
 		}
 		
+		
 		if amount == firstStop.location {
 			return firstStop.color.interpolated(to: secondStop.color, amount: 0)
 		}

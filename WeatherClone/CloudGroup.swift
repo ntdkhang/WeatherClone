@@ -68,6 +68,6 @@ class CloudGroup {
 				cloud.position.x = offScreenDistance
 			}
 		}
-		lastUpdate = Date.now
+		lastUpdate = date
 	}
 }
